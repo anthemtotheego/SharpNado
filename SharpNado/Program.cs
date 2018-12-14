@@ -331,7 +331,7 @@ public class Program
     public static string xmlPayload6 = "";
     public static string xmlPayload7 = "";
     public static string xmlPayload8 = "";
-    public static string payloadDir = @"..\..\..\Payloads\";
+    public static string payloadDir = @"..\..\..\..\Payloads\";
     //Variables used for setting service options
     public static string serviceValue = "wcf";
     public static string protocolValue = "http";
