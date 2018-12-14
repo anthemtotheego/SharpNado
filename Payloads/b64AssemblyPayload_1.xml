@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <payload id ="Base64 Assembly">
+    Base64 Assembly Goes Here
+  </payload>
+  <args id ="args">Args go here</args>
+  <args id ="args">Args go here</args>
+  <args id ="args">Args go here</args>
+</catalog>
+
+<!-- Use this with stager that pulls base64 assembly in memory like sharpcradle
+     Example stagers that were provided that this would work with are the following
+     
+     SharpNado_HTTP_WCF_Base64
+     SharpNado_HTTP_WCF_Base64_Encrypted
+     SharpNado_HTTP_WCF_Base64_Logic (sandbox evasion)
+     SharpNado_TCP_WCF_Base64
+     SharpNado_TCP_Remoting_Base64
+     -->

