@@ -2,7 +2,7 @@
 
 Description
 ============
-SharpNado is a proof of concept tool written in C# that demonstrates how you could use Windows Communication Foundation (WCF) or .NET Remoting as another way to host and call your .NET payloads.  It contains very basic examples of how one could do this and was written with the intention to be used as a building block or something to get those creative juices flowing. You really have the option to take this as far as you want.  I have only demostrated a few simple ways this could be used and provided enough code to get you up and running. So if you are looking for a tool that does ALL the work for you, this is not that tool...just a POC. :)
+SharpNado is a proof of concept tool written in C# that demonstrates how you could use Windows Communication Foundation (WCF) or .NET Remoting to host smarter and dynamic .NET payloads.  It contains very basic examples of how one could do this and was written with the intention to be used as a building block or something to get those creative juices flowing. You really have the option to take this as far as you want.  I have only demostrated a few simple ways this could be used and provided enough code to get you up and running. So if you are looking for a tool that does ALL the work for you, this is not that tool...just a POC. :)
 
 For more information, please see blog post below.
 
