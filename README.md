@@ -9,7 +9,7 @@ For more information on use cases, please see blog post below.
 Contact at:
 - Twitter: @anthemtotheego
 
-Blog:
+Blog: https://blog.redxorblue.com/2018/12/sharpnado-teaching-old-dog-evil-tricks.html
 
 **Before submitting issues, this tool may not always be updated actively. I encourage you to borrow, add, mod, and/or make your own.  Remember, all the awesome code out there (and there is a lot) can be taken/modified to create your own custom tools.**
 
